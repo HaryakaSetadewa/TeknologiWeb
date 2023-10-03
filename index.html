@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Aritmatika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Aritmatika</h1>
+      <select id="operation">
+        <option value="fibonacci">Deret Fibonacci</option>
+        <option value="volume">Volume Bangun Ruang</option>
+      </select>
+      <div class="identitas">
+        <h3>Putu Haryaka Seta Dewa</h3>
+        <h3>2215101033</h3>
+        <h3>REGULAR A</h3>
+      </div>
+      <div id="fibonacci-input" class="input">
+        <label for="fibonacci-term">Masukkan n untuk Deret Fibonacci:</label>
+        <input type="number" id="fibonacci-term" />
+      </div>
+      <div id="volume-input" class="input">
+        <label for="shape">Pilih Bangun Ruang:</label>
+        <select id="shape">
+          <option value="cube">Kubus</option>
+          <option value="sphere">Bola</option>
+        </select>
+        <label for="dimension">Masukkan Dimensi:</label>
+        <input type="number" id="dimension" />
+      </div>
+      <button id="calculate">Hitung</button>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
