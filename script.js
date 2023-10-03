@@ -17,11 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
       volumeInput.style.display = "none";
       calculateButton.style.display = "block";
       identitas.style.display = "none";
+      resultDiv.style.display = "block";
     } else if (operationSelect.value === "volume") {
       fibonacciInput.style.display = "none";
       volumeInput.style.display = "block";
       calculateButton.style.display = "block";
       identitas.style.display = "none";
+      resultDiv.style.display = "block";
     }
   });
 
